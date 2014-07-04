@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Practice</title>
+	<script type="text/javascript" src="jquery-2.1.1.js"></script>
+	<script type="text/javascript" src="application.js"></script>
+	<style>
+		
+		div#container {
+			width: 1000px;
+			margin: auto;
+			
+			
+		}
+
+		.concert {
+			background: #466368;
+		  background: -webkit-linear-gradient(top left, #648880, #293f50);
+		  background: -o-linear-gradient(top left, #648880, #293f50);
+		  background: linear-gradient(to bottom right, #648880, #293f50); 
+			width: 300px;
+			border: 4px double silver;
+			border-radius: 10px; 
+			float: left;	
+			margin: 12px;
+			margin-bottom: 24px; 
+					
+		}
+
+		#filters {
+			border: 1px solid blue;			
+			clear: both;
+
+			width: 300px;
+			height: 150px;					
+			background: #466368;
+		  background: -webkit-linear-gradient(top left, #648880, #293f50);
+		  background: -o-linear-gradient(top left, #648880, #293f50);
+		  background: linear-gradient(to bottom right, #648880, #293f50); 
+			width: 300px;
+			border: 4px double silver;
+			border-radius: 10px; 
+			
+			margin: auto;
+			margin-top: 24px;
+		}
+
+		/*
+
+		#sale {
+			position: absolute;
+			top: 10px;
+			left: 0px;
+
+		}
+
+		#almostGone {
+			position: absolute;
+			top: 10px;
+			right: 0px;
+		} */
+
+		h1{
+			font-family: Lato; 
+			color: white;
+			font-size: 40px; 
+			width: 100%;
+			text-align: center; 
+			margin-top: 30px;
+		}
+
+		h2 {
+			font-family: Lato; 
+			color: white;
+			font-size: 15px; 
+			width: 100%;
+			text-align: center; 
+			margin-top: 15px;				
+		}
+
+		h3 {
+			font-family: Lato; 
+			color: white;
+			font-size: 15px; 
+			width: 60px;
+			text-align: center; 
+			margin: auto;
+			margin-top: 5px;
+			margin-bottom: 30px;
+			border-bottom: 1px dashed white; 
+		}
+
+
+		button {
+			background-color: lime; 
+			width: 150px; 
+			padding: 10px; 
+			border-radius: 10px;
+			border: 1px solid white; 
+			display: block;
+			margin: auto;
+			margin-top: 20px;
+			margin-bottom: 20px; 
+			font-family: Lato; 
+			font-size: 15px; 
+			font-weight: bold; 
+			text-transform: uppercase;
+			color: white;
+
+		}
+
+		#filters button {
+			background-color: blue; 
+		}
+
+		button:hover {
+			background-color: green;
+		}
+
+		button:active {
+			background-color: yellow;
+		}
+
+		button:visited {
+			background-color: green;
+		}
+
+		p {
+			background-color: red; 
+			width: 150px; 
+			padding: 10px; 
+			border-radius: 10px;
+			border: 1px solid white; 
+			display: block;
+			margin: auto;
+			margin-top: 20px;
+			margin-bottom: 20px; 
+			font-family: Lato; 
+			font-size: 15px; 
+			font-weight: bold; 
+			color: white;
+		}
+
+		
+
+	</style>
+</head>
+<body>
+   <div id="container">
+	<div class="concert">
+		<h1>June</h1>
+		<h2>Nirvana live with the Beatles</h2>
+		<button>Click Here For Pricing!</button>
+		<h3>Details</h3>
+	</div>
+
+
+	<div class="concert">
+		<h1>July</h1>
+		<h2>Leeland live with Mercy Me</h2>
+		<button>Click Here For Pricing!</button>
+		<h3>Details</h3>
+	</div>
+
+	<div class="concert">
+		<h1>August</h1>
+		<h2>U2 live with REM</h2>
+		<button>Click Here For Pricing!</button>
+		<h3>Details</h3>
+	</div>
+
+
+	<div id="filters">
+	  	
+		<button id="sale">On Sale</button>
+		<button id="almostGone">Almost Gone</button>
+	  	
+	</div><!--end of filters -->
+
+   </div><!-- end container -->
+  
+	
+</body>
+</html>
